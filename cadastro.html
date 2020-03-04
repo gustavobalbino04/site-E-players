@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Players</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container cabecalho">
+            <a href="index.html">
+
+                <img src="imagens/Logo.svg" alt="logo do site e-players">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="ir ate sessão inicio">INÍCIO</a></li>
+                    <li><a href="index.html#horarios" title="ir ate sesão de  horario das partidas ">HORÁRIOS</a></li>
+                    <li><a href="index.html#resultados" title="ir até sessão de resultados das partidas " >RESULTADOS</a></li>
+                    <li><a href="index.html#noticias" title="ir até a sessão de noticias ">NOTÍCIAS</a></li>
+                    <li>
+                        <a href="#" title="buscar conteúdo">
+                            <i class="fas fa-search"></i>
+                        </a>
+                </ul>
+            </nav>
+            </div>
+
+    </header>
+    <main>
+        <div class="titulo_pagina">
+            <h1>cadastro de jogador</h1>
+        </div>
+
+        <form action="" method="post">
+
+            <div class="campo">
+                <label for="nome">nome do jogador</label>
+                <input type="text" name="nomedojogador" id="nome">
+            </div>
+            <div class="campo">
+                <label for="nike">nick do jogador</label>
+                <input type="text" name="nickdojogador" id="nick">
+            </div>
+            <div class="campo">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="campo">
+                <label for="senha">senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="campo">
+                <label for="senha_confirma">repita a senha</label>
+                <input type="password" name="semha_confirma" id="senha_confirma">
+            </div>
+            <div class="campo">
+                <label for="nascimento">nascimento</label>
+                <input type="date" name="nascimento" id="nascimento">
+            </div>
+            <div class="campo">
+                <label for="pais">País</label>
+                <section name="pais" id="pais">
+                    <option value="BR">Brasil</option>
+                    <option value="US">Estados Unidos</option>
+                    <option value="ES">Espanha</option>
+
+                </section>
+            </div>
+            <fieldset>
+                <legend>Sexo</legend>
+
+                <input type="radio" name="sexo" value="M" id="Masculino">
+                <label for="Masculino">Masculino</label>
+
+                <input type="radio" name="sexo" value="F" id="Feminino">
+                <label for="feminino">Feminino</label>
+
+                <input type="radio" name="sexo" value="O" id="Outro">
+                <label for="Outros">Outros</label>
+
+                <input type="radio" name="sexo" value="N" id="NA">
+                <label for="NA">prefiro não dizer</label>
+            </fieldset>
+
+            <div class="campo">
+                <input type="checkbox" name="check" id="check">
+                <label for="check">
+                    Declaro que li e aceito os termos de uso desse site.
+                </label>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div>
+                <h5>INSTITUCIONAL</h5>
+                <nav>
+                    <ul>
+                      <li><a href="#"></a>Suporte</li>
+                      <li><a href="#"></a>Política de privacidade</li>
+                      <li><a href="#">Termos de Uso</a></li>
+                      <li><a href="#">Anuncie</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <img src="imagens/Logo.svg" alt="Logo do projetos E-Players">
+                <div class="socias">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+            </div>
+            <div>
+                <h5>Principais ligas</h5>
+                <h6>PRINCIPAIS LIGAS</h6>
+                <h6>LIGA CBL</h6>
+                <h6>LIGA PROFISSIONAL CS</h6>
+                <h6>LIGA WCG</h6>
+            </div>
+        </div>
+        <P> © 2077 SENAI Electronic Sports -Todos os direitos reservados</P>
+    </footer>
+   
+</body>
+</html>
+
+
+
