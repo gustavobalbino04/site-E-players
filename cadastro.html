@@ -35,7 +35,7 @@
             <h1>cadastro de jogador</h1>
         </div>
 
-        <form action="" method="post">
+        <form class="form_cadastro" action="" method="post">
 
             <div class="campo">
                 <label for="nome">nome do jogador</label>
@@ -55,20 +55,20 @@
             </div>
             <div class="campo">
                 <label for="senha_confirma">repita a senha</label>
-                <input type="password" name="semha_confirma" id="senha_confirma">
+                <input type="password" name="senha_confirma" id="senha_confirma">
             </div>
             <div class="campo">
                 <label for="nascimento">nascimento</label>
-                <input type="date" name="nascimento" id="nascimento">
+                <input type="date" name="nascimento" id="nascimento" max="2020-03-05" min="1900-01-01">
             </div>
             <div class="campo">
                 <label for="pais">País</label>
-                <section name="pais" id="pais">
+                <select name="pais" id="pais">
                     <option value="BR">Brasil</option>
                     <option value="US">Estados Unidos</option>
                     <option value="ES">Espanha</option>
 
-                </section>
+                </select>
             </div>
             <fieldset>
                 <legend>Sexo</legend>
@@ -86,14 +86,14 @@
                 <label for="NA">prefiro não dizer</label>
             </fieldset>
 
-            <div class="campo">
+            <div class="campo" class="termos">
                 <input type="checkbox" name="check" id="check">
                 <label for="check">
                     Declaro que li e aceito os termos de uso desse site.
                 </label>
             </div>
 
-            <button type="submit">Cadastrar</button>
+            <button type="submit" class="btn gradient">Cadastrar</button>
 
         </form>
 
