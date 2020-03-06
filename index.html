@@ -13,11 +13,16 @@
 <body>
     <header>
         <div class="container cabecalho">
-            <a href="index.html">
-
-                <img src="imagens/Logo.svg" alt="logo do site e-players">
-            </a>
-            <nav>
+            <div>
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html">
+                    
+                    <img src="imagens/Logo.svg" alt="logo do site e-players">
+                </a>
+            </div>
+            <nav id="menu">
                 <ul>
                     <li><a href="index.html" title="ir ate sessão inicio">INÍCIO</a></li>
                     <li><a href="#horarios" title="ir ate sesão de  horario das partidas ">HORÁRIOS</a></li>
@@ -312,7 +317,19 @@
         </div>
         <P> © 2077 SENAI Electronic Sports -Todos os direitos reservados</P>
     </footer>
+    <script>
+        function botaoMenu(){
+            
+            var m = document.getElementById("menu");
+            if(m.style.display == "block"){
+                m.style.display = "none";
+            }else{
+                m.style.display = "block"
+            }
+        }//fim do menu//
 
+
+    </script>
 </body>
 
 </html>
