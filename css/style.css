@@ -363,5 +363,44 @@ fieldset label{
         width: 55%;
         margin-left: 30px;
     }
+    .ao_vivo{
+        padding: 0px 5px;
+        width: 50%;
+        flex-wrap: wrap;
+
+    }
+    .em_breve{
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .em_breve .partida{
+        margin: 0.5em 0;
+    }
+    /*sessão noticia */
+    .noticias{
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        width: 100%;
+    }
+    .card img{
+        width: 30%;
+    }
+    footer .container{
+        padding-top: 0.3em;
+        width: 94%;
+    }
+    .mob_logo_sociais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mob_logo_sociais img{
+        max-width: 180px;
+    }
+
+    
 }/*fim media max 768px*/
 
